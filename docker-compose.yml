@@ -1,9 +1,0 @@
-
-f239_dev:
-  image: kochiang99/docker_ubuntu
-
-  volumes:
-    - /home/stevechang:/home/stevechang
-    - /tftpboot:/tftpboot
-
-  tty: true
