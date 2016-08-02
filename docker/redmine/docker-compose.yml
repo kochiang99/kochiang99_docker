@@ -54,4 +54,4 @@ redmine:
   volumes:
     - /srv/docker/redmine/redmine:/home/redmine/data
     - /tmp/Backup.tmp:/tmp/Backup
-    - /home/stevechang/git:/git
+    - /home/redmine/git:/git
