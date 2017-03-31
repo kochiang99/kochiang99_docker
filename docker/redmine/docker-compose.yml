@@ -9,6 +9,7 @@ mysql:
 
 redmine:
   image: kochiang99/docker_redmine
+  #image: sameersbn/redmine:3.2.1
   links:
     - mysql:mysql
   environment:
@@ -48,10 +49,11 @@ redmine:
     - IMAP_INTERVAL=30
 
     - NGINX_MAX_UPLOAD_SIZE=50m
-    - UNICORN_TIMEOUT=300
+    - UNICORN_TIMEOUT=600
 
   ports:
-    - "80:80"
+    - "8080:80"
+    - "3000:3000"
   volumes:
     - /srv/docker/redmine/redmine:/home/redmine/data
     - /tmp/Backup.tmp:/tmp/Backup

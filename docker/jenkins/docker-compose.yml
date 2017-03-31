@@ -1,9 +1,13 @@
 
-f239_dev:
-  image: kochiang99/docker_ubuntu
+jenkins:
+  image: jenkins
+
+
+  ports:
+    - "8080:8080"
+    - "50000:50000"
 
   volumes:
-    - /home/stevechang:/home/stevechang
+    - /var/jenkins_home:/var/jenkins_home
+    - /tmp/F239_GIT:/tmp/F239_GIT
     - /tftpboot:/tftpboot
-
-  tty: true
