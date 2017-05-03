@@ -5,5 +5,6 @@ f239_dev:
   volumes:
     - /home/stevechang:/home/stevechang
     - /tftpboot:/tftpboot
+    - /tmp/F239_GIT:/tmp/F239_GIT
 
   tty: true
