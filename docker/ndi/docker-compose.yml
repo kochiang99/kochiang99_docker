@@ -1,0 +1,10 @@
+
+ndi_dev:
+  image: kochiang99/ubuntu_ndi_14.04
+
+  volumes:
+    - /home/ndi:/home/ndi
+    - /tftpboot:/tftpboot
+    - /tmp:/tmp
+
+  tty: true
