@@ -6,5 +6,6 @@ ndi_dev:
     - /home/ndi:/home/ndi
     - /tftpboot:/tftpboot
     - /tmp:/tmp
+    - /mnt:/mnt
 
   tty: true
