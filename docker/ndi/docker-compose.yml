@@ -3,7 +3,7 @@ ndi_dev:
   image: kochiang99/ubuntu_ndi_14.04
 
   volumes:
-    - /home/ndi:/home/ndi
+    - /home:/home
     - /tftpboot:/tftpboot
     - /tmp:/tmp
     - /mnt:/mnt
