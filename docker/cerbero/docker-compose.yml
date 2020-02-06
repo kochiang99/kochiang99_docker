@@ -1,0 +1,13 @@
+
+cerbero:
+  image: kochiang99/cerbero
+
+  volumes:
+    - /home:/home
+    - /tftpboot:/tftpboot
+    - /tmp:/tmp
+    - /mnt:/mnt
+    - /opt:/opt
+    - /etc:/etc
+
+  tty: true
