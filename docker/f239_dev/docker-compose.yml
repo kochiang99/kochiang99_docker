@@ -4,6 +4,7 @@ f239_dev:
 
   volumes:
     - /home/stevechang:/home/stevechang
+    - /media:/media
     - /tftpboot:/tftpboot
     - /tmp/F239_GIT:/tmp/F239_GIT
 
