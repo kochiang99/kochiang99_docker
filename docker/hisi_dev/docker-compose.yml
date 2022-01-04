@@ -1,6 +1,6 @@
 
 ndi_dev:
-  image: kochiang99/ubuntu_ndi_14.04
+  image: kochiang99/ubuntu_14.04
 
   volumes:
     - /home/stevechang:/home/stevechang
