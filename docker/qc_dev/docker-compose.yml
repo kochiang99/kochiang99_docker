@@ -1,0 +1,11 @@
+
+qc_dev:
+  image: kochiang99/ubuntu_22.04
+
+  volumes:
+    - /home/stevechang:/home/stevechang
+    - /tftpboot:/tftpboot
+    - /opt:/opt
+    - /media:/media
+ 
+  tty: true
